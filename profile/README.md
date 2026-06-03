@@ -6,7 +6,7 @@
 
 **We help organizations digitalize, adopt AI, and thrive in the AI era.**
 
-[Website](https://equerra.com) · [Elevate Suite](PLACEHOLDER_ELEVATE_LINK) · [Docs](https://docs.equerra.com/) · [Contact](https://equerra.com/contact)
+[Website](https://equerra.com) · [Elevate Suite](https://equerra.com/products) · [Docs](https://docs.equerra.com/) · [Contact](https://equerra.com/contact)
 
 </div>
 
@@ -29,7 +29,7 @@ Equerra is an AI-first technology advisory firm and Microsoft Dynamics 365 partn
 
 Our family of Microsoft AppSource certified extensions for Dynamics 365 Business Central.
 
-**[Products](PLACEHOLDER_ELEVATE_LINK)** · **[Documentation](https://docs.equerra.com/)**
+**[Products](https://equerra.com/products)** · **[Documentation](https://docs.equerra.com/)**
 
 ### Elevate Approvals
 
