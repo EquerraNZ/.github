@@ -33,7 +33,7 @@ Our family of Microsoft AppSource certified extensions for Dynamics 365 Business
 
 ### Elevate Approvals
 
-Approval workflow automation for Dynamics 365 Business Central, with a visual workflow builder, vendor self-service portal, bypass detection, and real time analytics.
+A modern way to handle approvals. Elevate Approvals is a complete approval product that works with any system, not just Dynamics 365 Business Central. It covers the full approval lifecycle: onboarding, approvals, configurable workflows, and data validations.
 
 **[Learn more](https://elevateapprovals.com/)** · **[Register for the app](https://app.elevateapprovals.com)**
 
