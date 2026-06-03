@@ -6,32 +6,28 @@
 
 **We help organizations digitalize, adopt AI, and thrive in the AI era.**
 
-[Website](https://equerra.com) · [Services](https://equerra.com/services) · [Elevate Suite](PLACEHOLDER_ELEVATE_LINK) · [Contact](https://equerra.com/contact)
+[Website](https://equerra.com) · [Elevate Suite](PLACEHOLDER_ELEVATE_LINK) · [Contact](https://equerra.com/contact)
 
 </div>
 
 ---
 
-## Who We Are
+## About Equerra
 
 Equerra is an AI-first technology advisory firm and Microsoft Dynamics 365 partner serving New Zealand and Australia. We are at the frontier of the AI journey: we adopt AI in how we work, and we help complex businesses do the same.
 
-## AI Practice
+## Services
 
-- **AI Strategy and Adoption** : From use cases and roadmap to production AI.
-- **AI Governance** : Policies, controls, and responsible-use oversight.
-- **AI Training and Enablement** : Upskilling teams and leaders to use AI with confidence.
-- **Copilot and Applied AI** : Copilot rollout, assistants, and automation that solve real problems.
-
-## What Else We Do
-
-Digital transformation, Dynamics 365, cloud migration, integration, data and insights, Modern Work, and CTO as a Service, all built on the Microsoft cloud.
+| | | |
+| --- | --- | --- |
+| AI Strategy and Adoption | AI Governance | AI Training and Enablement |
+| Copilot and Applied AI | Digital Transformation | Dynamics 365 |
+| Cloud Migration | Integration | Data and Insights |
+| Modern Work | CTO as a Service | |
 
 ## Elevate Suite
 
-Our family of Microsoft AppSource certified extensions for Dynamics 365 Business Central, closing everyday gaps in finance, operations, and warehousing.
-
-> Explore the products: **[Elevate Suite](PLACEHOLDER_ELEVATE_LINK)**
+Our family of Microsoft AppSource certified extensions for Dynamics 365 Business Central. **[Learn more](PLACEHOLDER_ELEVATE_LINK)**
 
 ## Get in Touch
 
