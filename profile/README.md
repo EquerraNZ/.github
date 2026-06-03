@@ -2,11 +2,11 @@
 
 # Equerra
 
-### Technology Advisory and Digital Transformation
+### AI-First Technology Advisory and Digital Transformation
 
-**We help complex businesses grow through technology.**
+**We help organizations digitalize, adopt AI, and thrive in the AI era.**
 
-[Website](https://equerra.com) · [Services](https://equerra.com/services) · [Products](https://equerra.com/products) · [Contact](https://equerra.com/contact)
+[Website](https://equerra.com) · [Services](https://equerra.com/services) · [Elevate Suite](https://equerra.com/products) · [Contact](https://equerra.com/contact)
 
 </div>
 
@@ -14,17 +14,32 @@
 
 ## Who We Are
 
-Equerra is a technology advisory firm and Microsoft Dynamics 365 partner serving New Zealand and Australia, with offices in Wellington and Auckland. We partner with complex businesses to modernise their operations, connect their systems, and put practical AI to work.
+Equerra is an AI-first technology advisory firm and Microsoft Dynamics 365 partner serving New Zealand and Australia, with offices in Wellington and Auckland.
+
+We are at the frontier of the AI journey. As an organization, we adopt AI in how we work, and we help complex businesses do the same. Our purpose is to digitalize operations and embed practical, governed AI so our clients do not just keep pace with change, they thrive on it.
 
 We start with the business need rather than the software. Every engagement is led by a senior principal, scoped at a fixed price, and backed by unlimited support beyond go-live. The person you meet is the person who builds your solution.
 
+## Our AI Practice
+
+AI sits at the centre of everything we do. We guide organizations from first experiments through to AI that is embedded, trusted, and delivering measurable value.
+
+- **AI Strategy and Adoption** : Identify high-value use cases, build a roadmap, and move from pilots to production AI that changes how the business operates.
+- **AI Governance** : Establish the policies, controls, and oversight that keep AI safe, compliant, and trustworthy, covering data privacy, responsible use, and risk management.
+- **AI Training and Enablement** : Upskill teams and leaders so AI is understood and confidently used across the organization, not left to a handful of specialists.
+- **Microsoft Copilot Deployment** : Roll out Copilot across Microsoft 365 and Dynamics 365 with the adoption and change management that makes it stick.
+- **Applied AI and Automation** : Build AI-powered assistants, automation, and insight tools that solve real operational problems.
+
+We believe AI is most powerful when it is governed, well understood, and built on a solid digital foundation. That is the journey we take our clients on, and the one we live ourselves.
+
 ## What We Do
+
+Beyond AI, we deliver the full digital transformation stack on the Microsoft cloud:
 
 | Service | Description |
 | --- | --- |
-| **Dynamics 365** | Implementation across Business Central, Sales, Field Service, Customer Service, and Customer Insights |
 | **Digital Transformation** | End to end transformation for complex businesses, from discovery through delivery and ongoing support |
-| **AI for Business** | Practical AI and Microsoft Copilot deployment that delivers measurable outcomes |
+| **Dynamics 365** | Implementation across Business Central, Sales, Field Service, Customer Service, and Customer Insights |
 | **Cloud Migration** | Secure transition from on-premise systems to the cloud with zero disruption |
 | **Integration** | Connecting Dynamics 365 with ERP, CRM, eCommerce, banking, IoT, and warehouse management systems |
 | **Data and Insights** | Power BI dashboards and analytics that turn operational data into decisions |
@@ -33,25 +48,15 @@ We start with the business need rather than the software. Every engagement is le
 
 ## The Elevate Suite
 
-The **Elevate Suite** is our collection of purpose-built extensions for Microsoft Dynamics 365 Business Central. Every extension is Microsoft AppSource certified and built natively on the Business Central platform.
+The **Elevate Suite** is our family of purpose-built, Microsoft AppSource certified extensions for Dynamics 365 Business Central. Built natively on the platform, Elevate closes everyday gaps in finance, operations, warehousing, and administration, and brings AI-powered assistance directly into the tools your teams already use.
 
-- **Elevate Approvals** : Workflow automation with a visual builder, vendor self-service portal, bypass detection, and real time analytics
-- **Elevate Labels** : Item, shipping, and barcode label printing directly from Business Central
-- **Elevate Reversals** : Single-click reversal of posted journal entries with automatic audit trails
-- **Elevate Dimensions** : Automated dimension assignment and hierarchical consistency enforcement
-- **Elevate CloudStore** : Historical data export to cloud storage for database optimisation
-- **Elevate Attachments** : Multi-file email attachments sent from Business Central
-- **Elevate Admin** : Unified administrative dashboard for system monitoring and user management
-- **Elevate Data Insights** : Table growth monitoring and record volume tracking
-- **Elevate Endpoint Management** : Centralised API connection configuration with multiple authentication methods
-- **Elevate Operations** : Real time warehouse dashboard for inbound and outbound activity
-- **Elevate Reporting FCY** : Foreign currency reporting with VAT entry visibility
-- **Elevate Assist** : AI-powered Microsoft Teams bot for knowledge base access and natural language queries
+> Explore the full range of Elevate products: **[Elevate Suite](PLACEHOLDER_ELEVATE_LINK)**
 
 ## Technology
 
 Our work is built on the Microsoft cloud platform:
 
+- **AI and Copilot** across Microsoft 365, Dynamics 365, and Azure AI services
 - **Microsoft Dynamics 365** (Business Central, Sales, Field Service, Customer Service, Customer Insights)
 - **Microsoft Power Platform** (Power BI, Power Automate)
 - **Microsoft 365** (Teams, SharePoint, Copilot)
@@ -86,5 +91,5 @@ We specialise in Food and Beverage and the wider supply chain:
 ---
 
 <div align="center">
-<sub>© Equerra. Technology advisory and digital transformation for complex businesses.</sub>
+<sub>© Equerra. AI-first technology advisory and digital transformation for complex businesses.</sub>
 </div>
