@@ -1,0 +1,60 @@
+# Equerra Toolkit Sync receiver.
+# Copy this file into the consumer repo at .github/workflows/equerra-sync.yml.
+# It listens for the equerra-toolkit-release dispatch (or manual trigger)
+# and delegates the actual sync work to the reusable workflow in the toolkit.
+#
+# Required one-time setup in the consumer repo:
+#   1. Add the topic configured by TOOLKIT_CONSUMER_TOPIC (default: equerra-bc-ai-skills)
+#      under Repo > About > topics, or with:
+#        gh repo edit --add-topic equerra-bc-ai-skills
+#   2. Make sure .equerra/toolkit.lock exists at the repo root.
+#
+# Optional: opt in to auto-merge for patch updates.
+#   - Repo > Settings > General > "Allow auto-merge" must be ON.
+#   - Add a Repository variable EQUERRA_AUTO_MERGE = true.
+#   - Auto-merge only applies to patch-level bumps (e.g. 0.2.0 -> 0.2.1).
+#     Minor and major bumps always leave the PR for a human reviewer.
+#   - Branch protection rules still apply. Required reviews / required checks
+#     gate the merge as usual; auto-merge just removes the manual "merge" click
+#     once gates pass.
+#
+# The @vX.Y.Z on the `uses:` line below pins the reusable workflow to a toolkit
+# release. Keep it in step with the current toolkit version: CI (cli/lib/utils/validate.js)
+# fails the build if this pin drifts from the version in equerra-toolkit.yaml, so a
+# release bump and this pin move together. Do not hand-edit it to an older tag.
+
+name: Equerra Toolkit Sync
+
+on:
+  repository_dispatch:
+    types: [equerra-toolkit-release]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Toolkit version to sync to (leave empty for latest).
+        required: false
+        type: string
+      auto-merge:
+        description: Enable auto-merge for patch-only updates on this run.
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    # Grant the reusable workflow what it needs. Without these, the call fails at
+    # startup because the reusable's job requests contents:write and pull-requests:write,
+    # which exceed the org's default workflow permissions cap of read.
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: EquerraNZ/elevate-ai-toolkit/.github/workflows/sync.yml@v0.51.0
+    with:
+      # Prefer github.event.client_payload.version (set by repository_dispatch from the toolkit).
+      # Fall back to github.event.inputs.version (set when the user manually runs via workflow_dispatch).
+      # We use github.event.inputs.X rather than inputs.X because inputs is only defined for
+      # workflow_call and workflow_dispatch contexts; for repository_dispatch it is undefined,
+      # which fails the workflow at parse time.
+      version: ${{ github.event.client_payload.version || github.event.inputs.version }}
+      auto-merge: ${{ github.event.inputs.auto-merge == 'true' || vars.EQUERRA_AUTO_MERGE == 'true' }}
+    secrets: inherit
