@@ -1,0 +1,28 @@
+name: Requirement
+description: A business requirement to be fulfilled
+type: Requirement
+body:
+  - type: markdown
+    attributes:
+      value: Requirements sit underneath a Feature. Link the parent so the rollup works.
+  - type: textarea
+    id: requirement
+    attributes:
+      label: Requirement
+      description: The business need, stated as what must be true when this is met.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we confirm this is met.
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent feature
+      description: The Feature this belongs to, for example #123.
+    validations:
+      required: false
