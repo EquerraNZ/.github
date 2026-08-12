@@ -1,0 +1,24 @@
+name: Test
+description: A testable scenario
+type: Test
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What is being tested, and against which requirement.
+    validations:
+      required: true
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Preconditions
+      description: Data, setup or state needed before the test runs.
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected result
+    validations:
+      required: true
