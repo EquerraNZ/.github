@@ -15,10 +15,3 @@ body:
       description: How a reviewer confirms this is complete.
     validations:
       required: true
-  - type: input
-    id: estimate
-    attributes:
-      label: Estimate (hours)
-      placeholder: "2"
-    validations:
-      required: false
