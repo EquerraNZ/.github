@@ -1,0 +1,28 @@
+name: Feature
+description: A request, idea, or new functionality
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: Use this for a deliverable capability. Break the detail out into Requirement sub-issues underneath it.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What this delivers, and for whom.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in, and anything deliberately out.
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we confirm this is done.
+    validations:
+      required: true
